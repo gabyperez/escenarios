@@ -41,6 +41,3 @@ def get_consultas_respuestas_esperadas():
     "Curar planta enferma con hongos": [0]
 }
   return consultas_respuestas
-}
-
- 
