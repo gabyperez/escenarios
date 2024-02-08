@@ -22,7 +22,7 @@ def imprimir_lista(lista):
       print(f"Escenario {indice+1}: {oracion}")
 
 def get_consultas_respuestas_esperadas():
-  consultas_respuestas = {
+  return {
     "Realizar fumigación para controlar plagas": ["Control de plaga", "Control enfermedades bacterianas", "Manejo enfermedades fungosas", "Controlar plagas e insectos", "Control de enfermedades virales"],
     "Recortar ramas de la planta": ["Despunte de inflorescencias", "Podar planta de tomate", "Podar manualmente"],
     "Echar agua a la planta": ["Regar", "Regar la huerta "],
@@ -40,4 +40,4 @@ def get_consultas_respuestas_esperadas():
     "Pasar planta del almácigo a la tierra": [0],
     "Curar planta enferma con hongos": [0]
 }
-  return consultas_respuestas
+
