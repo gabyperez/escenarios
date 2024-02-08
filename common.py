@@ -40,5 +40,7 @@ def get_consultas_respuestas_esperadas():
     "Pasar planta del almácigo a la tierra": [0],
     "Curar planta enferma con hongos": [0]
 }
-
   return consultas_respuestas
+}
+
+ 
